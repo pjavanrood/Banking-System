@@ -1,0 +1,96 @@
+*Commands Instruction:
+
+
+add person -fn (first name) -ln (last name) (national code) (birth date YYYY/MM/DD)
+
+add company (company name) (CEO national code)
+
+add bank (bank name)
+
+add bank (bank name) (initial balance)
+
+set bank income percent (bank name) (income percent)
+
+set bank interest percent (bank name) (interest percent)
+
+increase bank balance (bank name) (amount)
+
+Open current account <bankName> <nationalCode> <initialAmount>
+
+Open current account <bankName> <company id> <initialAmount>
+
+Open deposit account <bankName> <nationalCode> <Long/short-term> <initialAmount> <Current Account Number>
+
+Open deposit account <bankName> <company id> <Long/short-term> <initialAmount> <Current Account Number>
+
+Close account <bankName> <nationalCode> <accountNum>
+
+Close account <bankName> <Company id> <accountNum>
+
+Change card password <cardNum> <password> <newPassword>
+
+Set card second password <cardNum> <password> <secondPassword>
+
+Change card second password <cardNum> <password> <newSecondPassword>
+
+Extend the expiration date <bankName> <cardNum> <nationalCode>
+
+Deposit money <bankName> <accountNum> <amount>
+
+Withdraw money <cardNum> <password> <amount>
+
+Withdraw money <bankName> <accountNum> <nationalCode> <amount>
+
+Withdraw money <bankName> <accountNum> <company id> <amount>
+
+Get account balance <cardNum> <password>
+
+Transfer money to another account <cardNum> <password> <receiverCardNum> <amount>
+
+Transfer money to another account <bankName> <accountNum> <nationalCode> <receiverAccountNum> <amount>
+
+Transfer money to another account <bankName> <accountNum> <company id> <receiverAccountNum> <amount>
+
+Receive loan <bankName> <nationalCode> <current account number> <Amount>
+
+Receive loan <bankName> <company id> <current account number> <Amount>
+
+Pay off the loan <bankName> <nationalCode> <Amount>
+
+Pay off the loan <bankName> <company id> <Amount>
+
+Go next day
+
+Go next month
+
+Go next year
+
+Go for <num> days
+
+Go for <num> months
+
+Go for <num> years
+
+Go to date <day/month/year>
+
+show date
+
+Show all banks
+
+Show all persons
+
+Show all companies
+
+Show all accounts
+
+Show all loans
+
+Show accounts for <nationalCode>
+
+Show accounts for <company id>
+
+Show details of the loan for <nationalCode>
+
+Show details of the loan for <company Id>
+
+Show bank info <bankName>

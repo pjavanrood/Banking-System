@@ -1,0 +1,7 @@
+*Open Commands Instruction for valid commands.
+
+*Some commands have been changed for better usage.
+
+*CalendarTool Class is a modified version of:
+https://barnamenevis.org/archive/index.php/t-273252.html
+
